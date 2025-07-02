@@ -24,6 +24,31 @@ h6 {
 }
 
 /*--------------------------------------------------------------
+# Tombol Download CV
+--------------------------------------------------------------*/
+.btn-download-cv {
+  display: inline-block;
+  background-color: #0563bb;         /* Warna utama (biru) */
+  color: #ffffff;                    /* Warna teks */
+  padding: 12px 30px;                /* Ukuran padding tombol */
+  border-radius: 30px;               /* Membulatkan sudut tombol */
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 20px;
+  box-shadow: 0 4px 12px rgba(5, 99, 187, 0.3);
+  transition: all 0.3s ease;
+}
+
+.btn-download-cv:hover {
+  background-color: #0452a0;         /* Warna saat hover */
+  box-shadow: 0 6px 16px rgba(4, 82, 160, 0.4);
+  transform: translateY(-2px);       /* Efek naik sedikit saat hover */
+  color: #fff;
+}
+
+
+/*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
 .back-to-top {
